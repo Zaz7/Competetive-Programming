@@ -11,8 +11,8 @@ class Solution:
         
         for right in range (n1,n2):
             window_count[s2[left]] -= 1
-            if window_count[s2[left]] == 0 :
-                del window_count[s2[left]]
+            #if window_count[s2[left]] == 0 :
+                #del window_count[s2[left]]
                 
             if s2[right] in window_count:
                 window_count[s2[right]] += 1
@@ -25,6 +25,8 @@ class Solution:
             left += 1
         
         return False
+    
+    
         
                 
         
