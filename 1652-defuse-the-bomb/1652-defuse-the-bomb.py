@@ -50,15 +50,6 @@ class Solution:
                     left+=1
                     new_right+=1
             return lis
-                        
-                #else:
-                    #final_sum+=code[left]
-                    #final_sum-=code[(m)%n]
-                    #lis.append(final_sum)
-                    #left+=1
-                    #new_right+=1
-                    #m+=1
-                #return lis
                     
                     
                     
